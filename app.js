@@ -17,14 +17,7 @@ function addItems() {
             div.innerText = item.strMeal;
             parentDiv.append(div);
         });
-        // console.log(data.meals.length)
-
-
-        // console.log(data.length)
-        // let div = document.createElement('div');
-        // div.className = 'individual';
-        // div.innerText = data[item][i].strMeal;
-        // container.append(div);
+        
     });
 }
 
