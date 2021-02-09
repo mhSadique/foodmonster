@@ -49,7 +49,7 @@ function addItems() { //function to run when the 'search' button is clicked
                 });
                 i++; //increase the counter by 1
             });
-            searchValue.value = '';
+            searchValue.value = ''; //empty the search box after the search
         });
 }
 
