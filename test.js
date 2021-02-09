@@ -8,20 +8,7 @@ function addItems() {
     fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${inputValue}`)
         .then(res => res.json())
         .then(data => {
-            data.meals.forEach(item => {
-                for (let prop in item) {
-
-                    // console.log(`${prop}`.includes('strIngredient'));
-                    if(`${prop}`.includes('strIngredient')) {
-                        if(item[prop] !== "" && item[prop] !== null && item[prop] !== undefined) {
-                            console.log(item[prop]);
-                        }
-                    }
-                    
-                }
-                console.log('############   DONE WITH AN ITEM   #############')
-
-            });
+            console.log(data.meals);
         });
 }
 

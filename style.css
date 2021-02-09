@@ -1,7 +1,7 @@
 .individual {
     padding: 10px 40px;
     padding-bottom: 40px;
-    background-color: tomato;
+    background-color: #3CBC8D;
     color: white;
     border-radius: 10px;
     font-size: 25px;
@@ -12,5 +12,59 @@
     display: inline-block;
 }
 .food-img {
-    width: 300px;
+    width: 400px;
+    border: 5px solid #89ecc8;
+    border-radius: 5px;
+}
+#hidden {
+    display: none;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(207, 23, 146);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: none;
+
+}
+#header {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    background-color: rgb(23, 207, 176);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+input[type=text] {
+    border: 2px solid #3CBC8D;
+    font-size: 30px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 50%;
+    margin-right:auto;
+    margin-left:auto;
+    display: inline-block;
+    text-align: center;
+    background-color: #8df7d0;
+    color: rgb(207, 23, 146);
+    margin-bottom: 20px;
+}
+
+#btn {
+    border: 2px solid #8df7d0;
+    background-color: #3CBC8D;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#btn-holder {
+    display: inline-block;
+    margin: 0 auto;
 }
