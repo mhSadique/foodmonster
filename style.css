@@ -1,8 +1,9 @@
 .individual {
     padding: 10px 40px;
+    padding-bottom: 40px;
     background-color: tomato;
     color: white;
-    border-radius: 50px;
+    border-radius: 10px;
     font-size: 25px;
     font-weight: 500;
     margin: 5px;
