@@ -4,7 +4,7 @@ let i = 0; //counter for the nodelist of the same css class
 let containerMain = document.getElementById('container-main');
 let noSuchFoodMessage = document.getElementById('hidden'); //message to show if there is no search result
 function addItems() { //function to run when the 'search' button is clicked
-    containerMain.innerHTML = "Hello";
+    // containerMain.innerHTML = "";
 
     let inputValue = document.getElementById('search-food').value;
     fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${inputValue}`)
